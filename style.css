@@ -45,7 +45,7 @@ body {
 
 .container {
   max-width: 800px;
-  min-height: 1000px;
+  min-height: 1100px;
   background-color: var(--clr-white);
   margin-inline: auto;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
@@ -119,7 +119,7 @@ body {
   font-weight: var(--fw-regular);
 }
 
-.contact__iconFrame {
+.iconFrame {
   background-color: var(--clr-white);
   border-radius: 50%;
   display: flex;
@@ -141,8 +141,9 @@ body {
 }
 
 #education,
-#skills {
-  margin-top: 20px;
+#skills,
+#hobbies {
+  margin-top: 30px;
 }
 
 .educationContainer {
@@ -230,6 +231,31 @@ body {
 
 .progress35::before {
   width: 35%;
+}
+
+.hobbies__list {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  gap: 20px;
+}
+
+.hobbies__list li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.iconFrameHobbies {
+  width: 33px;
+  aspect-ratio: 1/1;
+}
+
+.hobby__text {
+  font-size: 0.9rem;
+  color: var(--clr-white);
 }
 
 .rightContainer {
